@@ -26,3 +26,7 @@ numb=[1,2,3,4,5]
 print(calc_square(numb))
 print(counter())
 
+# calc_square took 0.0ms.
+# [1, 4, 9, 16, 25]
+# counter took 0.0ms.
+# 1000
