@@ -14,3 +14,6 @@ class Child(Father,Mother):
 
 a=Child()
 a.parents()
+
+# name of john's dad is: james
+# name of john's mom is: juliet
