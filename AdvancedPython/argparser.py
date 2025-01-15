@@ -4,7 +4,7 @@ if __name__ == "__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument("number1",help="first number")
     parser.add_argument("--number2",help="second number") #adding "--" makes it optional
-    parser.add_argument("--operation",help="operation")
+    parser.add_argument("--operation",help="operation",choices=["add","subtract","multiply","divide"])
 
     args=parser.parse_args()
 
@@ -46,3 +46,7 @@ if __name__ == "__main__":
 # 6
 # None
 # Result= 0
+
+# PS D:\VsCode\AiML> python -u "d:\VsCode\AiML\argparser.py"  5 --number2 6 --operation as
+# usage: argparser.py [-h] [--number2 NUMBER2] [--operation {add,subtract,multiply,divide}] number1
+# argparser.py: error: argument --operation: invalid choice: 'as' (choose from 'add', 'subtract', 'multiply', 'divide')
