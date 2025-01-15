@@ -27,3 +27,10 @@ a=animal()
 a.sleep()
 print(d.name)
 print(a.age)
+
+# Dog eats
+# animal sleeps
+# Dog eats
+# True
+# harry
+# 6

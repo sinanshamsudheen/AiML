@@ -19,4 +19,4 @@ print(next(itr))
 print(next(itr))
 print(next(itr))
 print(next(itr))
-print(next(itr))
+print(next(itr)) #Exception
