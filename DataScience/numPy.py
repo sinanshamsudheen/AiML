@@ -31,6 +31,7 @@ print(n1+n2)
 print(n1-n2)
 print(n1/n2)
 print(n1*n2)
+print(n1.dot(n2)) #matrix product
 
 # 28000
 # 8000
