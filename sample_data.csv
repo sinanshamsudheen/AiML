@@ -1,0 +1,10 @@
+ID,Name,Age,City,Day
+1,Alice,25,New York,01-01-2024
+2,Bob,30,,02-01-2024
+3,Charlie,,Chicago,03-01-2024
+4,,27,Miami,04-01-2024
+5,David,22,,05-01-2024
+6,Emily,,Boston,06-01-2024
+7,Frank,35,Seattle,07-01-2024
+8,,28,Denver,08-01-2024
+9,Grace,26,,09-01-2024
