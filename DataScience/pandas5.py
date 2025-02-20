@@ -17,3 +17,11 @@ p=rf.replace({
 print(p)
 q=rf.replace(['Emily','Grace','Frank'],['NotEmily','NotFrank','NotGrace'])
 print(q)
+
+df=pd.DataFrame({
+    'score': ['exceptional','average','good','poor','average','exceptional'],
+    'student': ['rob','maya','parthiv','tom','julian','erica']
+})
+
+df2=df.replace(['poor','average','good','exceptional'],['1','2','3','4'])
+print(df2)
