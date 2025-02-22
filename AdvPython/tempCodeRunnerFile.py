@@ -1,1 +1,0 @@
-rf.imdb_rating==rf.imdb_rating.max()
