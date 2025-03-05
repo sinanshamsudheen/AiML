@@ -26,3 +26,12 @@ email_count=v.transform(emails)
 print(model.predict(email_count))
 X_test_count=v.transform(X_test)
 print(model.score(X_test_count,Y_test))
+
+#we can replace the above code by using a pipeline!
+from sklearn.pipeline import Pipeline
+clf=Pipeline([
+    ('vectorizer',CountVectorizer()),
+    ('nb',MultinomialNB())
+])
+clf.fit(X_train,Y_train)
+print(clf.score(X_test,Y_test))
