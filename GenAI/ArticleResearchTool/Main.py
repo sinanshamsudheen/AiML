@@ -95,9 +95,10 @@ if query:
             st.write(result['answer'])
 
             sources = result.get('sources', '')
-            if sources and sources.strip():
+            if sources:
                 st.subheader("Sources")
-                source_list = [source.strip() for source in sources.split("\n") if source.strip()]
+                # source_list = [source.strip() for source in sources.split("\n") if source.strip()]
+                source_list = sources.split('\n')
                 for source in source_list:
                     st.write(f"• {source}")
 
